@@ -8,8 +8,8 @@ export const readContacts = async () => {
     return data;
   } catch (error) {
     console.error('Error parsing JSON:', error.message);
-    return [];
+    // return [];
   }
 };
 
-readContacts().catch((error) => console.log(error));
+// readContacts().catch((error) => console.log(error));
